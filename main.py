@@ -43,4 +43,4 @@ def calculate_bmi(
         message = "أنت تعاني من السمنة، قم بمراجعة طبيب"
         pic="4"
 
-    return BMIOutput(bmi=bmi, message=message,image=image)
+    return BMIOutput(bmi=bmi, message=message,image=pic)
