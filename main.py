@@ -30,7 +30,7 @@ def calculate_bmi(
 ):
     bmi = weight / (height ** 2)
 
-        if bmi < 18.5:
+    if bmi < 18.5:
         message = "لديك نقص في الوزن، كُل أكثر"
         pic = "1"
     elif 18.5 <= bmi < 25:
